@@ -3,6 +3,11 @@ import Card from './Card';
 
 const CardList = props => {
 
+    // Error test
+    // if (true) {
+    //     throw new Error('NO!!!');
+    // }
+
     const { robots } = props;
 
     const cardsArray = robots.map(robot => {
